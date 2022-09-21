@@ -47,3 +47,41 @@
 section {
     margin-bottom: 3rem;
 }
+
+section:first-of-type {
+    margin-top: 15%;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    margin-bottom: 10%;
+}
+
+#form h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#email {
+    max-width: 70%;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+#submit {
+    max-width: 30%;
+}
+
+#products {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 90%;
+    margin-inline: auto;
+}
